@@ -4,6 +4,4 @@ This plugin automatically dispose Unity `InputSystem` events such as
 ```
 InputSystem.onActionChange += ...;
 ```
-
-## Resetted Events
-- `onActionChange`
+to support domain Reload
