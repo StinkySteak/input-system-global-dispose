@@ -7,7 +7,7 @@ namespace StinkySteak.Editor
 {
     public class InputSystemGlobalDisposer
     {
-        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
         private static void DisposeInputSystemEvents()
         {
             string typeName = "UnityEngine.InputSystem.InputActionState";
